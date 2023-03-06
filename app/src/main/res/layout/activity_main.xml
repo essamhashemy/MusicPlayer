@@ -11,6 +11,7 @@
 
     <TextView
         style="@style/myTheme"
+        android:id="@+id/music_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Music Title" />
@@ -24,6 +25,7 @@
         android:id="@+id/seekbar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
         android:progress="50"
 
         />
@@ -33,6 +35,22 @@
         android:orientation="horizontal"
         android:gravity="center"
         >
+        <ImageButton
+            android:id="@+id/but_skip_previous"
+            android:src="@drawable/i_skip_previous"
+            style="@style/but_Style"
+            />
+        <ImageButton
+            android:id="@+id/but_pause"
+            android:src="@drawable/i_pause"
+            style="@style/but_Style"
+            android:layout_marginHorizontal="18dp"
+            />
+        <ImageButton
+            android:id="@+id/but_skip_next"
+            android:src="@drawable/i_skip_next"
+            style="@style/but_Style"
+            />
 
     </LinearLayout>
 

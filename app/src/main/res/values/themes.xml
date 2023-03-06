@@ -16,5 +16,12 @@
     <style name="myTheme">
         <item name="android:textSize">28sp</item>
         <item name="android:textColor">#000</item>
+
+
+    </style>
+    <style name="but_Style">
+        <item  name="android:background" >"@drawable/btn_bg"</item>
+        <item  name="android:layout_height" >50dp</item>
+        <item  name="android:layout_width" >50dp</item>
     </style>
 </resources>
