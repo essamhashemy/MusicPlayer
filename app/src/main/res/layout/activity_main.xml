@@ -45,7 +45,7 @@
             />
         <ImageButton
             android:id="@+id/but_play"
-            android:src="@drawable/i_pause"
+            android:src="@drawable/i_play"
             style="@style/but_Style"
             android:layout_marginHorizontal="18dp"
             />
